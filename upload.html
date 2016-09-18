@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>StatusBrew</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+.content
+{
+  color:rgb(116, 133, 140);
+  font-size:20px;
+}
+.button_move
+{
+  margin-left:340px;
+  font-size:3em !important;
+  color:rgb(116, 133, 140);
+}
+.content_top
+{
+  color: white ;
+  font-size: 1.5em;
+  padding-top:50px;
+  padding-left:330px;
+}
+.top
+{
+  height:200px;
+  background-color: rgb(51, 122, 183);
+  font-size: 40px !important;
+  margin-top:0px;
+}
+.form_position
+{
+  margin-left:180px;
+  margin-right:80px;
+  color:rgb(116, 133, 140);
+}
+.submit_color
+{
+  color:rgb(116, 133, 140);
+}
+</style>
+</head>
+</body>
+<div class="top">
+    <div class="content_top">
+        Welcome to Status Brew
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <p>  This is a file management service that stores file with basic commands like move, rename and delete. <br>We can move a   file from one directory to another. 
+          <br>    This use Symfony 2 framework.
+        </p>
+      </div>
+      <br>
+      <div class="btn-group btn-group-lg button_move" role="group" aria-label="...">
+          <button type="button" class="btn btn-large btn-primary active">&nbsp Find </button> 
+          <button type="button" class="btn btn-large btn-primary"> Upload </button>
+          <button type="button" class="btn btn-large btn-primary"> Copy </button>
+          <button type="button" class="btn btn-large btn-primary "> Move </button>
+          <button type="button" class="btn btn-large btn-primary"> Rename &nbsp </button>
+      </div>
+    </div>
+    
+  </div>
+<div class="container">
+  <div class="row">
+    <br>
+     <form class="form-horizontal form_position">
+  <div class="form-group">
+    <label class="control-label col-md-2">Path:</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="find" placeholder="Enter the location of file">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">File Name:</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="find" placeholder="Enter the file name with extension">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default submit_color">Submit</button>
+    </div>
+  </div>
+  
+</form>
+
+  </div>
+  
+</div>
+</body>
+</html>
